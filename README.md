@@ -1,16 +1,47 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# Portafolio Carlos Martínez
 
-Currently, two official plugins are available:
+Bienvenido a mi portafolio personal, una aplicación web desarrollada con React y Vite. Aquí podrás conocer mis proyectos, experiencia y habilidades como desarrollador frontend. El diseño es moderno, responsivo y animado, pensado para ofrecer una experiencia atractiva y profesional.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+## 📦 Tecnologías y Paquetes Utilizados
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- **React**: Biblioteca principal para la construcción de interfaces de usuario.
+- **Vite**: Herramienta de desarrollo y bundler ultrarrápido.
+- **Tailwind CSS**: Framework de utilidades para estilos rápidos y responsivos.
+- **Framer Motion**: Animaciones fluidas y declarativas en React.
+- **GSAP**: Animaciones avanzadas y controladas.
+- **@heroicons/react**: Íconos SVG de alta calidad para React.
+- **react-icons**: Colección de íconos populares para React.
+- **@midudev/tailwind-animations**: Animaciones adicionales para Tailwind CSS.
+- **@vitejs/plugin-react**: Integración de React con Vite.
+- **react-magic-motion**: Animaciones mágicas y fáciles de usar en React.
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🚀 Comandos para Ejecutar la Aplicación
+
+| Comando              | Descripción                                 |
+|----------------------|---------------------------------------------|
+| `npm install`        | Instala todas las dependencias              |
+| `npm run dev`        | Inicia la aplicación en modo desarrollo     |
+| `npm run build`      | Genera la versión optimizada para producción|
+| `npm run preview`    | Previsualiza la build de producción         |
+
+---
+
+## 📝 Descripción
+
+Este portafolio es una muestra de mi trabajo como desarrollador frontend. Incluye:
+
+- **Sección de presentación** con animaciones y bienvenida.
+- **Proyectos destacados** con imágenes y descripciones.
+- **Experiencia profesional** y habilidades técnicas.
+- **Formulario de contacto** animado y enlaces directos a mis redes.
+
+El código está estructurado en componentes reutilizables y se apoya en animaciones modernas para mejorar la experiencia del usuario.
+
+---
+
+Desarrollado por [**Carlos-Mtzg**](https://github.com/Carlos-Mtzg)
