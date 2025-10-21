@@ -35,9 +35,9 @@ const Header = () => {
         </div>
         <PillTabs />
         <a
-          href="/src/assets/documents/CV_CarlosMartinezGomez.pdf"
-          download
+          href="/carlos-portfolio/documents/CarlosMartinezGomez.pdf"
           className="cursor-target flex gap-2 items-center rounded-full px-5 py-2 bg-secondary-600/50 cursor-pointer shadow"
+          download={true}
         >
           <span>CV</span>
           <ArrowDownTrayIcon className="size-[1.2rem] text-[#B196FE]" />
