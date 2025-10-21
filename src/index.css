@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=BBH+Sans+Hegarty&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+
+@import "tailwindcss";
+
+@plugin "@midudev/tailwind-animations";
+
+@theme {
+
+    /* Titles */
+    --font-title: BBH Sans Hegarty, "Arial";
+
+    /* Text */
+    --font-sans: DM Sans, "sans-serif";
+
+    /* Primary Color */
+    --color-primary-50: #f1f1fc;
+    --color-primary-100: #e8e6f9;
+    --color-primary-200: #d4d1f4;
+    --color-primary-300: #bbb5ec;
+    --color-primary-400: #a697e2;
+    --color-primary-500: #967ed6;
+    --color-primary-600: #8664c7;
+    --color-primary-700: #7553af;
+    --color-primary-800: #5f468d;
+    --color-primary-900: #4e3e71;
+    --color-primary-950: #271e37;
+    /* Main Color */
+
+    /* Secondary Color */
+    --color-secondary-50: #f2f2ff;
+    --color-secondary-100: #e8e7ff;
+    --color-secondary-200: #d3d2ff;
+    --color-secondary-300: #b3aeff;
+    --color-secondary-400: #8c80ff;
+    --color-secondary-500: #684dff;
+    --color-secondary-600: #5327ff;
+    /* Main Color */
+    --color-secondary-700: #4616eb;
+    --color-secondary-800: #3a12c5;
+    --color-secondary-900: #3111a1;
+    --color-secondary-950: #1a076e;
+
+}
+
+html {
+    scroll-behavior: smooth;
+}
