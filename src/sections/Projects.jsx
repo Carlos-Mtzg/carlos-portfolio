@@ -153,12 +153,8 @@ const Projects = () => {
       <TitleText title={"Proyectos"} />
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 gap-8 mt-12">
         {projects.map((project, idx) => (
-          <motion.div
+          <div
             key={idx}
-            initial={{ opacity: 0, y: 40 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true, amount: 0.2 }}
-            transition={{ duration: 0.7, delay: 0.2 + idx * 0.15 }}
             className="bg-white/10 border border-secondary-600 cursor-target rounded-xl shadow-lg overflow-hidden flex flex-col hover:scale-[1.03] hover:border-secondary-400 transition-all duration-300"
           >
             <Carousel
@@ -208,7 +204,7 @@ const Projects = () => {
                 </a>
               )}
             </div>
-          </motion.div>
+          </div>
         ))}
       </div>
     </section>
